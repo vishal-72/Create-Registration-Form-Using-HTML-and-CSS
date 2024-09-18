@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+}
+
+
+body{
+    background: linear-gradient(to bottom right, #ff0066 0%, #0033cc 100%);
+}
+
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+table{
+    box-shadow: 0px 0px 7px 2px white;
+    border-radius: 5px;
+    height: 100vh;
+    width: 65vh;
+    padding: 10px 20px;
+    margin-bottom: 50px;
+    background-color: rgba(255,255,255,0.1);
+    backdrop-filter: blur(50px);
+}
+
+h3{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 25px;
+    color: white;
+}
+
+input{
+    border: none;
+    border: 1px solid grey;
+    border-radius: 10px;
+    padding: 8px 40px;
+    text-align: center;
+}
+
+select{
+    border: none;
+    border: 1px solid grey;
+    border-radius: 10px;
+    padding: 10px 78px;
+}
+
+textarea{
+    border: none;
+    border: 1px solid grey;
+    border-radius: 10px;
+    padding: 10px 40px;
+    text-align: center;
+    resize: none;
+}
+
+label{
+    padding-right: 5px;
+    color: white;
+}
+
+.space{
+    margin-right: 5px;
+} 
+
+.spacing{
+    margin-right: 10px;
+}
+
+.btn{
+    border: 1px solid white;
+    box-shadow: 3px 3px 7px black;
+    animation: .5s ease;
+    transition: all 0.2s ease-in-out;
+    background-color: transparent;
+    color: white;
+}
+
+.btn[type="reset"]{
+    margin-left: 30px;
+}
+
+.btn:hover{
+    border: 1px solid white;
+    color: white;
+    background: linear-gradient(to bottom right, #ff0066 25%, #0033cc 100%);
+} 
